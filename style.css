@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+body {
+	background-color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+
+button, a, .btn {
+    color: inherit;
+    border: none;
+  	outline: 0 ;
+    text-decoration:none;
+       box-shadow:none;
+}
+
+
+.jumbotron {
+  color: black;
+  background-image: url("links/rafael-leao-410781-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.landing {
+	color: white;
+	display: inline-block;
+}
+
+
+h1.display-1 {
+	font-family: 'Flamenco', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.25em;
+	line-height: 0.75;
+}
+
+h5 {
+	font-weight: 300;
+}
+
+.tagline {
+	letter-spacing: 0.25em;
+}
+
+.btn-light { 
+	margin: 15px;
+	background-color: #0A1A3C; 
+	color: white  !important;
+	letter-spacing: 0.25em;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+.btn-light:hover { 
+	background-color: #5D265F !important;
+}
+
+
+.btn-light:active, .btn-light:focus { 
+	background-color: #743471 !important; 
+}
+
+
+
+
+
+/*
+font-family: 'Flamenco', cursive;
+font-family: 'KoHo', sans-serif;
